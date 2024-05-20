@@ -28,7 +28,7 @@ public class ExceptionTest01 {
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("에러발생");
-			e.printStackTrace();
+			e.printStackTrace();  // error code를 console창에 출력
 		} finally {
 			System.out.println("DB와 연결된 connection을 닫아주는 코드 입력해야함");
 		}
