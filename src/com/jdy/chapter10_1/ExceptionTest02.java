@@ -11,9 +11,6 @@ public class ExceptionTest02 {
 			// e.printStackTrace();
 			System.out.println("0나누기 에러 발생");
 		}
-		
-		
-
 	}
 	
 	public static void throwTest(int a, int b) throws ArithmeticException {
