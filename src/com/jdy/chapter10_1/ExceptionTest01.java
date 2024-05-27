@@ -31,6 +31,7 @@ public class ExceptionTest01 {
 			e.printStackTrace();  // error code를 console창에 출력
 		} finally {
 			System.out.println("DB와 연결된 connection을 닫아주는 코드 입력해야함");
+			// 에러와 상관없이 실행됨.
 		}
 	}
 
